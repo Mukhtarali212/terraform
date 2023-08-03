@@ -3,11 +3,11 @@ variable "aws_region" {
 }
 
 variable "access_key" {
-    default = "AKIA365YV54AUHB4ZIFB"
+    default = ""
 }
 
 variable "secret_key" {
-    default = "+EcDowv3ASd4JaV5sOiKlRaJnB8dK/7UPSAtJPG0"
+    default = ""
 }
 variable "key_name" { 
     description = " SSH keys to connect to ec2 instance" 
