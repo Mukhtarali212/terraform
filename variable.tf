@@ -2,6 +2,13 @@ variable "aws_region" {
     default     = "ap-south-1" 
 }
 
+variable "access_key" {
+    default = "AKIA365YV54AUHB4ZIFB"
+}
+
+variable "secret_key" {
+    default = "+EcDowv3ASd4JaV5sOiKlRaJnB8dK/7UPSAtJPG0"
+}
 variable "key_name" { 
     description = " SSH keys to connect to ec2 instance" 
     default     =  "Centos" 
